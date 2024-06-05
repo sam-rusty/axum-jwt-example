@@ -1,0 +1,11 @@
+[package]
+name = "axum-jwt-middleware-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = {version = "0.7.5", features = ["macros"]}
+tokio = { version = "1.38.0", features = ["rt-multi-thread"]}
+serde = { version = "1.0.203", features = ["derive"] }
+http = "1.1.0"
+jsonwebtoken = "9.3.0"
